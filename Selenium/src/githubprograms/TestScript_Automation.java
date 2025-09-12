@@ -46,7 +46,7 @@ public class TestScript_Automation {
 
             //6. click on "Logout" link and verify logout is successful
             oBrowser.findElement(By.xpath("//a[@id='logoutLink']")).click();
-            Thread.sleep(2000)
+            Thread.sleep(2000);
 
             if(oBrowser.getCurrentUrl().equals("http://localhost/login.do")
                     && oBrowser.getTitle().equals("actiTIME - Login")
