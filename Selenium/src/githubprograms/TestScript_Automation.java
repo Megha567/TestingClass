@@ -39,6 +39,8 @@ public class TestScript_Automation {
                 System.out.println("-----------------");
                 System.out.println("______________________________");
                 System.out.println("____________________________");
+                System.out.println("Failed to login to actiTime");
+                System.out.println("Failed to login to actiTime");
                 return;
             }
 
